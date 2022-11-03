@@ -21,7 +21,9 @@ const Hero = () => {
                transform: 'translate(-50%, -50%)',
             }}
          >
-            <Typography variant='h3'>Best food waiting for your belly</Typography>
+            <Typography variant='h3'>
+               Best food waiting for your belly
+            </Typography>
          </Box>
       </Box>
    );
