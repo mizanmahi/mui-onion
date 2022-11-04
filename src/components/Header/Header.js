@@ -14,7 +14,7 @@ const Header = () => {
                padding: '2rem 0',
             }}
          >
-            <Box>
+            <Box component={Link} to='/'>
                <img
                   src='https://i.ibb.co/GV0gqff/logo2.png'
                   alt='Logo'
