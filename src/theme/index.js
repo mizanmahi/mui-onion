@@ -5,7 +5,7 @@ export const theme = createTheme({
       primary: {
          main: '#f91944',
          secondary: '#191919',
-
+         hover: '#ff9caf',
       },
    },
    components: {
@@ -33,13 +33,18 @@ export const theme = createTheme({
          styleOverrides: {
             root: {
                color: '#191919',
-            }
-            
-         }
-      }
+            },
+         },
+      },
    },
 
    typography: {
       fontFamily: '"Poppins", "Roboto", "Helvetica", "Arial", sans-serif',
    },
 });
+
+
+// adding a box shadow the the theme shadows
+theme.shadows.push(
+   'rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px'
+);

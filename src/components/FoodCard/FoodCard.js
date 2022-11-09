@@ -1,6 +1,7 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import { Typography } from '@mui/material';
+// import { theme } from '../../theme';
 
 const FoodCard = () => {
    return (
@@ -12,7 +13,7 @@ const FoodCard = () => {
             borderRadius: '10px',
             '&:hover': {
                cursor: 'pointer',
-               boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.1)',
+               boxShadow: 25,
             },
          }}
       >
