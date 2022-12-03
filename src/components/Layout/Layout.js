@@ -7,11 +7,9 @@ const Layout = () => {
    return (
       <>
          <Header />
-         {
-            // This is where the magic happens
-            // The Outlet component will render the component that matches the current route
-            <Outlet />
-         }
+         {/*  This is where the magic happens // The Outlet component will render
+         the component that matches the current route */}
+         <Outlet />
          <Footer />
       </>
    );

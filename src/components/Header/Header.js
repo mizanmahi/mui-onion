@@ -1,9 +1,32 @@
 import React from 'react';
-import { Box, Button, Container, Stack, Typography } from '@mui/material';
+import {
+   Badge,
+   Box,
+   Button,
+   Container,
+   IconButton,
+   Stack,
+} from '@mui/material';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
-import { Link } from 'react-router-dom';
+import { Link, Navigate, useNavigate } from 'react-router-dom';
+import { useAuth } from '../../hooks/useAuth';
+import LogoutIcon from '@mui/icons-material/Logout';
+import { useCart } from '../../hooks/useCart';
 
 const Header = () => {
+   const { user, logoutUser } = useAuth();
+   const { cart } = useCart();
+   const navigate = useNavigate();
+
+   // console.log(cart);
+   // console.log(user);
+
+   const quantity = cart.reduce((acc, curr) => curr.quantity + acc, 0);
+
+   const handleLogout = () => {
+      logoutUser();
+   };
+
    return (
       <Container>
          <Box
@@ -30,20 +53,50 @@ const Header = () => {
                   alignItems: 'center',
                }}
             >
-               <ShoppingCartOutlinedIcon />
-               <Typography
-                  to='/login'
-                  component={Link}
+               <Badge
+                  badgeContent={quantity}
+                  color='primary'
+                  onClick={() => navigate('/checkout')}
                   sx={{
-                     textDecoration: 'none',
-                     fontSize: '1rem',
-                     fontWeight: '600',
+                     cursor: 'pointer',
+                     '&:hover': {
+                        '& > svg': {
+                           color: 'primary.main',
+                        },
+                     },
                   }}
                >
-                  Login
-               </Typography>
+                  <ShoppingCartOutlinedIcon />
+               </Badge>
+               {!user && (
+                  <>
+                     <Button
+                        to='/login'
+                        component={Link}
+                        variant='text'
+                        sx={{
+                           textDecoration: 'none',
+                           fontSize: '1rem',
+                           fontWeight: '600',
+                        }}
+                     >
+                        Sign In
+                     </Button>
 
-               <Button>Sign up</Button>
+                     <Button to='/register' component={Link}>
+                        Sign up
+                     </Button>
+                  </>
+               )}
+
+               {user && (
+                  <>
+                     <Button variant='text'>{user.displayName}</Button>
+                     <IconButton onClick={handleLogout}>
+                        <LogoutIcon />
+                     </IconButton>
+                  </>
+               )}
             </Stack>
          </Box>
       </Container>

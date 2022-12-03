@@ -1,9 +1,10 @@
 import React from 'react';
 import Box from '@mui/material/Box';
 import { Typography } from '@mui/material';
-// import { theme } from '../../theme';
+import { useNavigate } from 'react-router-dom';
 
-const FoodCard = () => {
+const FoodCard = ({ meal }) => {
+   const navigate = useNavigate();
    return (
       <Box
          sx={{
@@ -16,6 +17,7 @@ const FoodCard = () => {
                boxShadow: 25,
             },
          }}
+         onClick={() => navigate(`/meal-details/${meal._id}`)}
       >
          <Box
             sx={{
@@ -25,7 +27,7 @@ const FoodCard = () => {
             }}
          >
             <img
-               src='https://i.ibb.co/3445BtT/breakfast1.png'
+               src={meal.defaultImage}
                alt='breakfast'
                style={{
                   width: '100%',
@@ -40,7 +42,7 @@ const FoodCard = () => {
                }}
                variant='h6'
             >
-               Eggs Benedict
+               {meal?.title}
             </Typography>
             <Typography
                sx={{
@@ -48,7 +50,9 @@ const FoodCard = () => {
                   color: '#8D8D8D',
                }}
             >
-               How We Dream About Our Future
+               {meal.description.length > 50
+                  ? meal?.description.slice(0, 50) + '...'
+                  : meal.description}
             </Typography>
             <Typography
                sx={{
@@ -57,7 +61,7 @@ const FoodCard = () => {
                }}
                variant='h5'
             >
-               $ 25.99
+               ${meal.price}
             </Typography>
          </Box>
       </Box>

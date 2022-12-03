@@ -1,0 +1,256 @@
+[
+   {
+      "title": "Begel and cream cheese",
+      "category": "breakfast",
+      "defaultImage": "https://i.ibb.co/R2F2HQw/breakfast1.png",
+      "images": [
+         "https://i.ibb.co/yhmhff6/breakfast2.png",
+         "https://i.ibb.co/z71nd5m/breakfast3.png",
+         "https://i.ibb.co/gwk2FFw/breakfast4.png",
+         "https://i.ibb.co/3NS9V3Q/breakfast5.png",
+         "https://i.ibb.co/HHnjhqK/breakfast6.png"
+      ],
+      "price": 99,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, quis est hic dolorem beatae in qui! Animi vero placeat expedita quis consectetur. Aperiam, animi ducimus."
+   },
+   {
+      "title": "Breakfast sandwich",
+      "category": "breakfast",
+      "defaultImage": "https://i.ibb.co/yhmhff6/breakfast2.png",
+      "images": [
+         "https://i.ibb.co/R2F2HQw/breakfast1.png",
+         "https://i.ibb.co/z71nd5m/breakfast3.png",
+         "https://i.ibb.co/gwk2FFw/breakfast4.png",
+         "https://i.ibb.co/3NS9V3Q/breakfast5.png",
+         "https://i.ibb.co/HHnjhqK/breakfast6.png"
+      ],
+      "price": 55,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, quis est hic dolorem beatae in qui! Animi vero placeat expedita quis consectetur. Aperiam, animi ducimus."
+   },
+   {
+      "title": "Baked Chicken",
+      "category": "breakfast",
+      "defaultImage": "https://i.ibb.co/z71nd5m/breakfast3.png",
+      "images": [
+         "https://i.ibb.co/R2F2HQw/breakfast1.png",
+         "https://i.ibb.co/yhmhff6/breakfast2.png",
+         "https://i.ibb.co/gwk2FFw/breakfast4.png",
+         "https://i.ibb.co/3NS9V3Q/breakfast5.png",
+         "https://i.ibb.co/HHnjhqK/breakfast6.png"
+      ],
+      "price": 109,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, quis est hic dolorem beatae in qui! Animi vero placeat expedita quis consectetur. Aperiam, animi ducimus."
+   },
+   {
+      "title": "Eggs benedict",
+      "category": "breakfast",
+      "defaultImage": "https://i.ibb.co/gwk2FFw/breakfast4.png",
+      "images": [
+         "https://i.ibb.co/R2F2HQw/breakfast1.png",
+         "https://i.ibb.co/yhmhff6/breakfast2.png",
+         "https://i.ibb.co/z71nd5m/breakfast3.png",
+         "https://i.ibb.co/3NS9V3Q/breakfast5.png",
+         "https://i.ibb.co/HHnjhqK/breakfast6.png"
+      ],
+      "price": 79,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, quis est hic dolorem beatae in qui! Animi vero placeat expedita quis consectetur. Aperiam, animi ducimus."
+   },
+   {
+      "title": "Toast Croissant fried egg",
+      "category": "breakfast",
+      "defaultImage": "https://i.ibb.co/3NS9V3Q/breakfast5.png",
+      "images": [
+         "https://i.ibb.co/R2F2HQw/breakfast1.png",
+         "https://i.ibb.co/yhmhff6/breakfast2.png",
+         "https://i.ibb.co/z71nd5m/breakfast3.png",
+         "https://i.ibb.co/gwk2FFw/breakfast4.png",
+         "https://i.ibb.co/HHnjhqK/breakfast6.png"
+      ],
+      "price": 85,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, quis est hic dolorem beatae in qui! Animi vero placeat expedita quis consectetur. Aperiam, animi ducimus."
+   },
+   {
+      "title": "Full breakfast fried egg brunch",
+      "category": "breakfast",
+      "defaultImage": "https://i.ibb.co/HHnjhqK/breakfast6.png",
+      "images": [
+         "https://i.ibb.co/R2F2HQw/breakfast1.png",
+         "https://i.ibb.co/yhmhff6/breakfast2.png",
+         "https://i.ibb.co/z71nd5m/breakfast3.png",
+         "https://i.ibb.co/gwk2FFw/breakfast4.png",
+         "https://i.ibb.co/3NS9V3Q/breakfast5.png"
+      ],
+      "price": 95,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, quis est hic dolorem beatae in qui! Animi vero placeat expedita quis consectetur. Aperiam, animi ducimus."
+   },
+
+   {
+      "title": "Healthy Meal Plan",
+      "category": "lunch",
+      "defaultImage": "https://i.ibb.co/xGJnzq0/lunch1.png",
+      "images": [
+         "https://i.ibb.co/PGpycJD/lunch2.png",
+         "https://i.ibb.co/8mqk0CT/lunch3.png",
+         "https://i.ibb.co/m5rbVQx/lunch4.png",
+         "https://i.ibb.co/D1WNQmw/lunch5.png",
+         "https://i.ibb.co/2KXqX7m/lunch6.png"
+      ],
+      "price": 83,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, quis est hic dolorem beatae in qui! Animi vero placeat expedita quis consectetur. Aperiam, animi ducimus."
+   },
+   {
+      "title": "Fried chicken bento",
+      "category": "lunch",
+      "defaultImage": "https://i.ibb.co/PGpycJD/lunch2.png",
+      "images": [
+         "https://i.ibb.co/xGJnzq0/lunch1.png",
+         "https://i.ibb.co/8mqk0CT/lunch3.png",
+         "https://i.ibb.co/m5rbVQx/lunch4.png",
+         "https://i.ibb.co/D1WNQmw/lunch5.png",
+         "https://i.ibb.co/2KXqX7m/lunch6.png"
+      ],
+      "price": 90.99,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, quis est hic dolorem beatae in qui! Animi vero placeat expedita quis consectetur. Aperiam, animi ducimus."
+   },
+   {
+      "title": "Tarragon-rubbed-salmon",
+      "category": "lunch",
+      "defaultImage": "https://i.ibb.co/8mqk0CT/lunch3.png",
+      "images": [
+         "https://i.ibb.co/xGJnzq0/lunch1.png",
+         "https://i.ibb.co/PGpycJD/lunch2.png",
+         "https://i.ibb.co/m5rbVQx/lunch4.png",
+         "https://i.ibb.co/D1WNQmw/lunch5.png",
+         "https://i.ibb.co/2KXqX7m/lunch6.png"
+      ],
+      "price": 60.99,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, quis est hic dolorem beatae in qui! Animi vero placeat expedita quis consectetur. Aperiam, animi ducimus."
+   },
+   {
+      "title": "Indian Lunch",
+      "category": "lunch",
+      "defaultImage": "https://i.ibb.co/m5rbVQx/lunch4.png",
+      "images": [
+         "https://i.ibb.co/xGJnzq0/lunch1.png",
+         "https://i.ibb.co/PGpycJD/lunch2.png",
+         "https://i.ibb.co/8mqk0CT/lunch3.png",
+         "https://i.ibb.co/D1WNQmw/lunch5.png",
+         "https://i.ibb.co/2KXqX7m/lunch6.png"
+      ],
+      "price": 65.99,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, quis est hic dolorem beatae in qui! Animi vero placeat expedita quis consectetur. Aperiam, animi ducimus."
+   },
+   {
+      "title": "Beef steak",
+      "category": "lunch",
+      "defaultImage": "https://i.ibb.co/D1WNQmw/lunch5.png",
+      "images": [
+         "https://i.ibb.co/xGJnzq0/lunch1.png",
+         "https://i.ibb.co/PGpycJD/lunch2.png",
+         "https://i.ibb.co/8mqk0CT/lunch3.png",
+         "https://i.ibb.co/m5rbVQx/lunch4.png",
+         "https://i.ibb.co/2KXqX7m/lunch6.png"
+      ],
+      "price": 85.99,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, quis est hic dolorem beatae in qui! Animi vero placeat expedita quis consectetur. Aperiam, animi ducimus."
+   },
+   {
+      "title": "Honey soy glazed salmon",
+      "category": "lunch",
+      "defaultImage": "https://i.ibb.co/2KXqX7m/lunch6.png",
+      "images": [
+         "https://i.ibb.co/xGJnzq0/lunch1.png",
+         "https://i.ibb.co/PGpycJD/lunch2.png",
+         "https://i.ibb.co/8mqk0CT/lunch3.png",
+         "https://i.ibb.co/m5rbVQx/lunch4.png",
+         "https://i.ibb.co/D1WNQmw/lunch5.png"
+      ],
+      "price": 70.56,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, quis est hic dolorem beatae in qui! Animi vero placeat expedita quis consectetur. Aperiam, animi ducimus."
+   },
+
+   {
+      "title": "Salmon with grapefruit and lentil salad",
+      "category": "dinner",
+      "defaultImage": "https://i.ibb.co/NSXFPDJ/dinner1.png",
+      "images": [
+         "https://i.ibb.co/zhSpRDY/dinner2.png",
+         "https://i.ibb.co/hYm4RmY/dinner3.png",
+         "https://i.ibb.co/ykRfWRb/dinner4.png",
+         "https://i.ibb.co/6ZKXwy3/dinner5.png",
+         "https://i.ibb.co/r4xQ4jp/dinner6.png"
+      ],
+      "price": 102.99,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, quis est hic dolorem beatae in qui! Animi vero placeat expedita quis consectetur. Aperiam, animi ducimus."
+   },
+   {
+      "title": "Lamony Salmon piccata",
+      "category": "dinner",
+      "defaultImage": "https://i.ibb.co/zhSpRDY/dinner2.png",
+      "images": [
+         "https://i.ibb.co/NSXFPDJ/dinner1.png",
+         "https://i.ibb.co/hYm4RmY/dinner3.png",
+         "https://i.ibb.co/ykRfWRb/dinner4.png",
+         "https://i.ibb.co/6ZKXwy3/dinner5.png",
+         "https://i.ibb.co/r4xQ4jp/dinner6.png"
+      ],
+      "price": 87.98,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, quis est hic dolorem beatae in qui! Animi vero placeat expedita quis consectetur. Aperiam, animi ducimus."
+   },
+   {
+      "title": "Pork tenderloin with quinoa pilaf",
+      "category": "dinner",
+      "defaultImage": "https://i.ibb.co/hYm4RmY/dinner3.png",
+      "images": [
+         "https://i.ibb.co/NSXFPDJ/dinner1.png",
+         "https://i.ibb.co/zhSpRDY/dinner2.png",
+         "https://i.ibb.co/ykRfWRb/dinner4.png",
+         "https://i.ibb.co/6ZKXwy3/dinner5.png",
+         "https://i.ibb.co/r4xQ4jp/dinner6.png"
+      ],
+      "price": 67.99,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, quis est hic dolorem beatae in qui! Animi vero placeat expedita quis consectetur. Aperiam, animi ducimus."
+   },
+   {
+      "title": "French fries with cheese",
+      "category": "dinner",
+      "defaultImage": "https://i.ibb.co/ykRfWRb/dinner4.png",
+      "images": [
+         "https://i.ibb.co/NSXFPDJ/dinner1.png",
+         "https://i.ibb.co/zhSpRDY/dinner2.png",
+         "https://i.ibb.co/hYm4RmY/dinner3.png",
+         "https://i.ibb.co/6ZKXwy3/dinner5.png",
+         "https://i.ibb.co/r4xQ4jp/dinner6.png"
+      ],
+      "price": 40.7,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, quis est hic dolorem beatae in qui! Animi vero placeat expedita quis consectetur. Aperiam, animi ducimus."
+   },
+   {
+      "title": "Garlic butter baked salmon",
+      "category": "dinner",
+      "defaultImage": "https://i.ibb.co/6ZKXwy3/dinner5.png",
+      "images": [
+         "https://i.ibb.co/NSXFPDJ/dinner1.png",
+         "https://i.ibb.co/zhSpRDY/dinner2.png",
+         "https://i.ibb.co/hYm4RmY/dinner3.png",
+         "https://i.ibb.co/ykRfWRb/dinner4.png",
+         "https://i.ibb.co/r4xQ4jp/dinner6.png"
+      ],
+      "price": 87.99,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, quis est hic dolorem beatae in qui! Animi vero placeat expedita quis consectetur. Aperiam, animi ducimus."
+   },
+   {
+      "title": "Baked chicken",
+      "category": "dinner",
+      "defaultImage": "https://i.ibb.co/r4xQ4jp/dinner6.png",
+      "images": [
+         "https://i.ibb.co/NSXFPDJ/dinner1.png",
+         "https://i.ibb.co/zhSpRDY/dinner2.png",
+         "https://i.ibb.co/hYm4RmY/dinner3.png",
+         "https://i.ibb.co/ykRfWRb/dinner4.png",
+         "https://i.ibb.co/6ZKXwy3/dinner5.png"
+      ],
+      "price": 70.99,
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis, quis est hic dolorem beatae in qui! Animi vero placeat expedita quis consectetur. Aperiam, animi ducimus."
+   }
+]

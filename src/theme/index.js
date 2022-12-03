@@ -4,8 +4,9 @@ export const theme = createTheme({
    palette: {
       primary: {
          main: '#f91944',
-         secondary: '#191919',
+         mainBg: '#191919',
          hover: '#ff9caf',
+         greyText: '#727272'
       },
    },
    components: {
